@@ -4,9 +4,9 @@ import discord
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix='%')
-# create environment variable for your bot token
+# TODO: create environment variable for your bot token
 BOT_TOKEN = os.environ["BOT_TOKEN_VAR"]
-# create environment var for the channel set to be observed
+# TODO: create environment var for the channel set to be observed
 DESIRED_CHANNEL = os.environ["CHANNEL_VAR"]
 
 
